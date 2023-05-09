@@ -1,0 +1,11 @@
+<h2>NBA Teams</h2>
+<ul class="teams">
+    <li *ngFor="let team of teams">
+        <span class="badge">{{team.id}}</span>
+        {{team.location}}  {{team.name}}
+    </li>
+
+</ul>
+<div class="error" *ngIf="errorMessage">
+{{errorMessage}}
+</div>

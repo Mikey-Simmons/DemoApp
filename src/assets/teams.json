@@ -1,0 +1,8 @@
+[
+    {   "id": 1, "name": "Lakers" , "location": "Los Angeles" },
+    {   "id": 2, "name": "Celtics", "location": "Boston"   },
+    {   "id": 3, "name": "Magic", "location": "Orlando"  },
+    {   "id": 4, "name": "Thunder", "location": "Oklahoma City" },
+    {   "id": 5, "name": "Pistons", "location": "Detroit"  }
+    
+]
