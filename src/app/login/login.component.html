@@ -1,0 +1,18 @@
+<div>
+<h1>Login</h1>
+<form #loginForm="ngForm" (ngSubmit)="verify()">
+    <input id="uName" type="text" required [(ngModel)]="username" name="username">
+    <br>
+    <input id="pwd" type="password" required [(ngModel)]="password" name="password">
+    <button type="submit">Login</button>
+    <div *ngIf="errorMessage!==null">
+        <h1>{{errorMessage}}</h1>
+
+    </div>
+    <div *ngIf="successMessage!==null">
+        <h1>{{successMessage}}</h1>
+
+    </div>
+
+</form>    
+</div>
